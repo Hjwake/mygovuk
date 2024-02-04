@@ -1,3 +1,8 @@
+# Welcome to myGOV.UK!
+This is my (Harry Wake's) entry for the February 2024 Inversity Challenge, to solve a problem for the Government Digital Service. It was created in just one day(!). Nearly all of the code was written by myself, although I did purpose ChatGPT to help create the registration form code, as well as asking it for the occasional suggestion. I have attempted to replicate some components from the [Government Design System](https://design-system.service.gov.uk/), which is available under the Open Government Licence v3.0.
+
+My video explaining the project is available here: https://youtu.be/KPzV_k4dWhI.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
