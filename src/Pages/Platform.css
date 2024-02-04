@@ -1,0 +1,42 @@
+div.platform-header {
+    background-color: #1D70B8;
+    padding: 25px 48px 48px 48px;
+}
+
+div.platform-header h1 {
+    color: #FFFFFF;
+}
+
+div .platform-body{
+    padding: 25px 48px 48px 48px;
+}
+
+div .information-and-advice {
+    padding: 28px 0;
+}
+
+.information-type-selector {
+    display: flex;
+  }
+  
+.information-type-selector div {
+    margin-right: 10px;
+}
+  
+.information-type-selector-text {
+    cursor: pointer;
+}
+
+div.recommended-services {
+    border-top: 4px solid #1d70b8;
+    padding: 28px 0;
+}
+
+div.data-transparency {
+    border-top: 4px solid #1d70b8;
+    padding: 28px 0;
+}
+
+div.data-transparency p {
+    padding-bottom: 10px;
+}

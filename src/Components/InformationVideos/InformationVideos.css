@@ -1,0 +1,19 @@
+/* Add or update the following styles in your CSS file */
+
+.information-videos-wrapper {
+  display: flex;
+}
+  
+.information-video-container {
+  flex: 1; /* Make each video container take up 50% of the screen */
+  max-width: 50%; /* Limit the container width to 50% */
+  padding-top: 20px;
+}
+
+.information-video-container-left {
+  padding-right: 10px;
+}
+
+.information-video-container-right {
+  padding-left: 10px;
+}

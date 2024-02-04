@@ -5,14 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap");
 
 body {
-  font-family: "Public Sans", sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /* Font styles */
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, li {
+  font-family: "Public Sans", sans-serif;
   margin: 0;
+  color: #0b0c0c;
 }
 
 h1 {
@@ -41,12 +43,27 @@ h5 {
   font-weight: 400;
 }
 
+li{
+  line-height: 28px;
+}
+
+.link-underlined {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  color: #1D70B8;
+  text-decoration-color: #1D70B8;
+}
+
+.link-underlined:hover {
+  text-decoration-thickness: 2px;
+}
+
 /* Buttons */
 
 button {
   border: none;
   padding: 8px 12px;
-  margin: 18px 4px 4px 4px;
+  margin: 18px 12px 4px 0;
   height: fit-content;
   cursor: pointer;
   font-size: 18px;
@@ -58,6 +75,51 @@ button {
   background: #FFFFFF;
   color: #1D70B8;
 }
+
+.btn_blue{
+  background: #1D70B8;
+  color: #FFFFFF;
+}
+
+.btn_green{
+  background: #00703C;
+  color: #FFFFFF;
+}
+
+/* Forms */
+
+input {
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid #0b0c0c;
+  border-radius: 0;
+  font-family: "Public Sans", sans-serif;
+  width: 300px;
+}
+
+form div p {
+  padding: 10px 0;
+}
+
+h3.form-subheading {
+  margin: 14px 0 6px 0;
+}
+
+form div .checkbox-section input[type="checkbox"] {
+  width: 35px;
+  height: 35px;
+  border-width: 10px;
+}
+
+form div .checkbox-section {
+  display: flex; /* Use Flexbox for the container */
+  align-items: center; /* Vertically center items */
+}
+
+form div .checkbox-section p {
+  margin-left: 8px; /* Add spacing between the checkbox and the text */
+}
+
 
 /* MEDIA QUERIES */
 

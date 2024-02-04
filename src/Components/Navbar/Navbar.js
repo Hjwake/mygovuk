@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./Navbar.css";
 import logo from "../../Images/myGOVUK_Logo-White_NS.svg"
 
-function Navbar(props) {
+function Navbar() {
 		return (
 			<div className="nav-wrapper">
-                <img src={logo} class="navbar-logo" alt="myGOV.UK logo"/>
+                <a href="/"><img src={logo} class="navbar-logo" alt="myGOV.UK logo"/></a>
 			</div>
 		);
 	};

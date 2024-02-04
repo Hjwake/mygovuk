@@ -1,9 +1,14 @@
+div.home-body {
+    padding: 25px 48px 48px 48px;
+    height: 100%;
+}
+
 div .home-header {
     background-color: #1D70B8;
     padding: 25px 48px 48px 48px;
 }
 
-div.home-header h1, h4{
+div.home-header h1, div.home-header h4{
     color: #FFFFFF;
 }
 
