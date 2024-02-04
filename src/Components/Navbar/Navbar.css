@@ -1,0 +1,9 @@
+div.nav-wrapper {
+  margin: 0;
+  background-color: #1D70B8;
+}
+
+div.nav-wrapper img.navbar-logo{
+  height: 35px;
+  padding: 10px 48px;
+}
